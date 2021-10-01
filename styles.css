@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+    margin: 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   list-style-type: none;
+   text-decoration: none;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -o-box-sizing: border-box;
+   box-sizing: border-box;
+ }
+.recipe-card{
+    position: relative;
+   background: white;
+   max-width: 350px;
+   margin: 20px auto;
+   box-shadow: 0px 0px 30px 2px #000;
+}
+.no{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.recipe-name{
+    color: black;
+    text-align: left;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 5px 30px;
+}
+.recipe-img {
+    background-size: cover;
+    min-height: 350px;
+}
+.recipe-ingredients{
+    margin: 10px 30px;
+}
+.health-labels{
+    margin: 10px 20px;
+}
+
+html, body {
+    height: 100%;
+ }
+
+ .getDirections{
+    display: block;
+    background: #EF3E36;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 10px;
+    transition: 250ms;
+    width: 350px;
+    margin-top: auto;
+    position: relative;
+ }
+
+
+ .fa-clock {
+    color: gray;
+    margin: 0 30px;
+ }
+ .fa-users {
+    color: gray;
+ }
+
+ .recipe-calories{
+    color: #17BEBB;
+    margin: 10px 30px;
+ }
+    
+.getDirections:hover {
+    background: #17BEBB;
+    transition: 250ms;
+ }
+
+.ingredient-search{
+    margin: 2rem 0;
+}
+
+.ingredient-search-box{
+    margin: 1.2rem 0;
+    display: flex;
+}
+.title{
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+/* .search,
+.search-button{
+    width: 700px;
+    position: relative;
+    align-content: center;
+
+} */
+.search{
+    width: 700px;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    outline: 0;
+    border: 1px solid black;
+    color: black;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin-left: auto;
+    /* margin-right: auto; */
+}
+.search-button{
+    width: 55px;
+    height: 55px;
+    font-size: 1.8rem;
+    color: #17BEBB;
+    border: black 1px solid;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    margin-right: auto;
+} 
+
+#recipe{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap !important;
+}
